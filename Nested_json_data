@@ -1,0 +1,87 @@
+    {
+  "orderId": "ORD-20230512-001",
+  "orderDate": "2023-05-12T14:35:10Z",
+  "customer": {
+    "customerId": "CUST-A8B3",
+    "firstName": "Eleanor",
+    "lastName": "Vance",
+    "email": "eleanor.v@example.com",
+    "phone": "555-0101",
+    "loyaltyStatus": "Gold",
+    "preferences": {
+      "contactlessDelivery": True,
+      "notificationChannels": ["email", "sms"]
+    }
+  },
+  "items": [
+    {
+      "productId": "PROD-LPT-01",
+      "productName": "QuantumBook Pro 15-inch",
+      "quantity": 1,
+      "unitPrice": 2499.99,
+      "isTaxable": True,
+      "features": ["16GB RAM", "1TB SSD", "M3 Max Chip"],
+      "supplier": {
+        "supplierId": "SUP-TECH-45",
+        "supplierName": "Core Technologies Inc.",
+        "country": "USA"
+      }
+    },
+    {
+      "productId": "PROD-ACC-05",
+      "productName": "USB-C HyperDock",
+      "quantity": 1,
+      "unitPrice": 129.50,
+      "isTaxable": True,
+      "features": None,
+      "supplier": {
+        "supplierId": "SUP-ACC-12",
+        "supplierName": "ConnectAll Gadgets",
+        "country": "Taiwan"
+      }
+    },
+    {
+      "productId": "PROD-SFT-11",
+      "productName": "PixelForge Pro - 1 Year Subscription",
+      "quantity": 1,
+      "unitPrice": 99.99,
+      "isTaxable": False,
+      "features": ["Digital Delivery", "Cross-platform"],
+      "supplier": {
+        "supplierId": "SUP-SFT-01",
+        "supplierName": "Creative Software Co.",
+        "country": "Canada"
+      }
+    }
+  ],
+  "shippingDetails": {
+    "shippingMethod": "Express",
+    "trackingNumber": "1Z999AA10123456789",
+    "estimatedDelivery": "2023-05-15T18:00:00Z",
+    "address": {
+      "street": "123 Hill House Lane",
+      "city": "Shirley",
+      "state": "MA",
+      "zipCode": "01464",
+      "country": "USA",
+      "isResidential": True
+    }
+  },
+  "paymentHistory": [
+    {
+      "transactionId": "TRN-A1B2C3D4",
+      "paymentMethod": "CreditCard",
+      "amount": 2729.48,
+      "currency": "USD",
+      "status": "Completed",
+      "timestamp": "2023-05-12T14:36:00Z",
+      "metadata": {
+        "cardBrand": "Visa",
+        "lastFourDigits": "4242",
+        "authCode": "A-5823B"
+      }
+    }
+  ],
+  "orderStatus": "Shipped",
+  "isActive": True
+}
